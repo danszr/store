@@ -70,13 +70,25 @@ header{
   nav{
   font-size: 20px;
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
+
+    a {
+    margin-right: 20px;
+    }
   }
 }
-.pure-u-1-2 div{
-  margin: 5%;
-  width: 50%;
-  display: inline-block;
+.testmonials{
+  position: relative;
+  top: 50%;
+}
+.pure-u-1-2 {
+  width: 40%;
+
+  div{
+    margin: 5%;
+    width: 60%;
+    display: inline-block;
+  }
 }
 img{
   width: 100px;
@@ -86,5 +98,6 @@ img{
 
   &:hover{
   border-radius: 0;
+  border: 1px solid black;
   }
 }
