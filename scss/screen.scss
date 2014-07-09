@@ -1,10 +1,7 @@
 @import "reset";
 
 
-.wrap {
-  margin: 0 auto;
-  max-width: 1200px;
-}
+
 
 body {
   font-family: Helvetica;
@@ -17,19 +14,6 @@ a {
   color: #800000;
 }
 
-p {
-  margin-bottom: 1.1em;
-}
-
-h1 {
-  font-size: 24px;
-  width: 150px;
-  height: 50px;
-  position: relative;
-  left: 50%;
-  font-weight: bold;
-  text-align: center;
-}
 
 .content {
   padding: 20px 0;
@@ -75,16 +59,10 @@ header{
     }
   }
 }
-.testmonials{
-  position: relative;
-  top: 50%;
-}
 .pure-u-1-2 {
-  width: 40%;
 
   div{
-    margin: 5%;
-    width: 60%;
+   
     display: inline-block;
   }
 }
@@ -126,11 +104,10 @@ div.section2 {
 }
 div.product1, div.product2, div.product3, div.product4 {
   border: 1px solid black;
-
   background: white;
 }
 .wrap {
-  max-width: 1200px;
+  max-width: 2400px;
   margin: 0 auto;
 }
 
@@ -148,20 +125,19 @@ h2 {
   margin: 10px;
   text-shadow: 0 0 15px black;
 }
- h1 {
-  height: 50px;
-  letter-spacing: 0em;
-  font-size: 40px;
+ .sub{
+  font-size: 30px;
   text-align: center;
   color: darkorange;
   text-shadow: 0px 0px 10px black;
-}
+  }
 .product h3 {
   padding-bottom: 20px;
   color: darkorange;
   font-size: 20px;
   font-weight: bold;
 }
+
 p, h1, h2, h3 {
   font-family: 'Lobster', cursive;
 }
