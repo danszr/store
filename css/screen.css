@@ -57,9 +57,7 @@ table {
 
 .wrap {
   margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 20px;
-  background: white;
+  max-width: 1200px;
 }
 
 body {
@@ -108,12 +106,12 @@ h1 {
 div.section1 {
   border: 1px solid black;
   display: inline-block;
-  background-image: url("http://investazor.com/wp-content/uploads/2013/12/nike-soccer-cleats-wallpapernike-just-do-it-red-iphone-4-4s-5-ipod-4-5-samsung-s2-s3-s4-hvahxfue.jpg");
   width: 100%;
   height: 600px;
   background-size: cover;
   background-position: center center;
   line-height: 30px;
+  background-image: url("http://investazor.com/wp-content/uploads/2013/12/nike-soccer-cleats-wallpapernike-just-do-it-red-iphone-4-4s-5-ipod-4-5-samsung-s2-s3-s4-hvahxfue.jpg");
 }
 
 div.section2 {
@@ -136,9 +134,16 @@ div.product1, div.product2, div.product3, div.product4 {
   background: white;
 }
 
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 img {
   width: 248px;
   height: 150px;
+  display: inline-block;
+  text-align: center;
 }
 
 h2 {
