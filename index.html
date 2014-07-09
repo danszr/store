@@ -1,52 +1,63 @@
 <!doctype html>
 <html>
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>Website</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Store</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <link rel="stylesheet" type="text/css" href="/css/reset.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
 </head>
 <body>
-    <div class="pure-g section1">
-        <div class="wrap">
-            <div class="pure-u-1-4 section2">
-                <h2>Nike Shoes</h2>
-                <p>BRAND NEW!!!! KD "What the" 6 basketball shoes just ordered in, as well as Lebron 11's and the brand new Kobes! Come buy them before they sell out. LIMITED TIME ONLY</p>
-            </div>
+    <header>
+        <nav>
+            <a href="#store" class = "one">Nike</a>
+            <a href="#testimonials" class = "two">Testimonial</a>
+            <a href="#products" class = "three">Products</a>
+            <a href="#contact" class = "four">Contact</a>
+        </nav>
+        <div class="logos">
+            <i class="fa fa-twitter fa-2x" class = "firstlogo"></i>
+            <i class="fa fa-facebook-square fa-2x" class = "secondlogo"></i>
+        </div>
+        
+    </header>
+
+
+
+<div class="pure-g testimonials" id = "testimonials">
+    <h1>Testimonials</h1>
+    <div class="pure-u-1-2">
+        <img src="img/jsmith.jpg" alt="">
+        <div>
+            <h2>John Smith</h2>
+            <p>"Nike Shoes are the best! They are comfortable, fit nicely, and even stay on!! I really like the new technology it has that makes you run faster."</p>
+        </div>
+        <img src="img/zach.png" alt="">
+        <div>
+            <h2>Zach Saegesser</h2>
+            <p>"Nike Shoes are so awesome. They help me jump higher in volleyball matches to go for those spikes. I couldn't play volleyball well without Nike Shoes.
         </div>
     </div>
-
+    <div class="pure-u-1-2">
+        <img src="img/gnu.png" alt="">
+        <div>
+            <h2>GNU</h2>
+            <p>"Nike Shoes are the best! They can support all of my 720lbs very well, and it still provides all the comfort my feet have desired before getting these shoes."</p>
+        </div>
+        <img src="img/LeBron.jpg" alt="Lebron">
+        <div>
+            <h2>Lebron James</h2>
+            <p>"These shoes are so nice. It doesn't hurt to be paid $90 millionby Nike to promote their shoes!! There may be a slight confict of interest, but who cares?"</p>
+        </div>
+    </div>
+</div>
    
-
-    <div class="pure-g">
-        <div class="pure-u-1-2">
-            <h3>Person A</h3>
-            <p>this hopefully works</p>
-        </div>
-        
-        <div class="pure-u-1-2">
-            <h3>Person B</h3>
-            <p>this is right</p>
-        </div>
-        
-        <div class="pure-u-1-2">
-            <h3>Person C</h3>
-            <p>this is right</p>
-        </div>
-        
-        <div class="pure-u-1-2">
-            <h3>Person D</h3>
-            <p>this is right</p>
-        </div>
-    </div>
     <hr>
     <h1>Product</h1>
     <div class="pure-g product">
         <div class="pure-u-1-4 product1">
-            <img src="kd.jpg">
+            <img src="kd.jpg" class = "pro">
             <h3>KD "What the" 6</h3>
             <p>LAUNCH: SATURDAY, JUNE 14, 2014 - 10:00 AM EDT
             Hoop Purple/Urgent Orange-Shark
@@ -57,7 +68,7 @@
             The KD VI 'What The' is available in Men's sizes only.</p>
         </div>
     <div class="pure-u-1-4 product2">
-            <img src="lebron.jpg">
+            <img src="lebron.jpg" class = "pro">
             <h3>Lebron 11 "What the"</h3>
             <p>LAUNCH: SATURDAY, JUNE 14, 2014 - 10:00 AM EDT
             Hoop Purple/Urgent Orange-Shark
@@ -69,7 +80,7 @@
             </p>
         </div>
     <div class="pure-u-1-4 product3">
-            <img src="kobe.jpg">
+            <img src="kobe.jpg" CLASS = "pro">
             <h3>Kobe's "What the"</h3>
             <p>LAUNCH: FRIDAY, DECEMBER 6, 2013 - 8:00 AM EST
             Electric Orange/Deep Night-Violet-Bright Citrus
@@ -77,7 +88,7 @@
             Limit 1 per customer</p>
         </div>
     <div class="pure-u-1-4 product4">
-            <img src="kobe8.jpg">
+            <img src="kobe8.jpg" class = "pro">
             <h3>Kobe Bryant All Star</h3>
             <p>LAUNCH: SATURDAY, DECEMBER 7, 2013 - 8:00 AM EST
             Electric Orange/Deep Night-Green-Bright Citrus
