@@ -10,9 +10,6 @@ body {
   background: lightgrey;
 }
 
-a {
-  color: #800000;
-}
 
 
 .content {
@@ -21,16 +18,6 @@ a {
 }
 
 
-.main {
-  width: 65%;
-  margin-right: 5%;
-  font-size: 16px;
-
-.side {
-  display: inline-block;
-  vertical-align: top;
-  }
-}
 
 .side {
   width: 30%;
@@ -50,14 +37,17 @@ header{
     margin: 10px;
       opacity: .5;
       &:hover{
-        background-color: blue;
+        opacity: 1;
       }
   }
   nav{
   font-size: 20px;
   text-decoration: none;
   margin: 20px;
-
+  &:hover{
+    background-color: blue;
+    font-size: 26px;
+  }
     a {
     margin-right: 30px;
       }
@@ -76,14 +66,16 @@ img{
   border-radius: 100%;
   transition: all 500ms linear;
   display: inline-block;
-  &:hover{
-  border-radius: 0;
-  border: 1px solid black;
-  }
+    + p{
+      display: inline-block;
+    }
+    &:hover{
+    border-radius: 0;
+    border: 1px solid black;
+    }
 }
 
 div .section1 {
-  border: 1px solid black;
   display: inline-block;
   width: 100%;
   height: 600px;
@@ -94,30 +86,31 @@ div .section1 {
 
 }
 div .section2 {
-  background: darkorange;
+  background-color: darkorange;
   margin-top: 80px;
   margin-left: 30px;
-  width: 250px;
-  height: 300px;
+  width: 20%;
+  height: auto;
   border-radius: 10px;
+  font-size: 20px;
+  &:hover{
+    font-size: 25px;
+  }
 }
 .section2 h1 {
   padding: 20px;
   color: white;
   text-shadow: 3px 3px black;
 }
-div .product1, div .product2, div .product3, div .product4 {
-  border: 1px solid black;
-  background: white;
-}
+
 .wrap {
   max-width: 2400px;
   margin: 0 auto;
+  border-bottom: 3px solid lightgrey;
 }
 .pro {
   width: 248px;
   height: 150px;
-  display: inline-block;
   text-align: center;
 }
 .title{
@@ -130,9 +123,14 @@ h2 {
   padding-bottom: 20px;
   text-shadow: 0 0 15px black;
 }
+h3{
+  margin: 30px;
+  font-size: 40;
+}
  .sub{
   font-size: 30px;
   text-align: center;
+  width: 20%;
   color: darkorange;
   text-shadow: 0px 0px 10px black;
   }
