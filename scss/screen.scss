@@ -110,19 +110,20 @@ div.product1, div.product2, div.product3, div.product4 {
   max-width: 2400px;
   margin: 0 auto;
 }
-
 .pro {
   width: 248px;
   height: 150px;
   display: inline-block;
   text-align: center;
 }
+.title{
+  margin:30px;
+}
 h2 {
   font-weight: bold;
   color: white;
   font-size: 20px;
   padding-bottom: 20px;
-  margin: 10px;
   text-shadow: 0 0 15px black;
 }
  .sub{
@@ -132,7 +133,7 @@ h2 {
   text-shadow: 0px 0px 10px black;
   }
 .product h3 {
-  padding-bottom: 20px;
+  
   color: darkorange;
   font-size: 20px;
   font-weight: bold;
@@ -140,4 +141,17 @@ h2 {
 
 p, h1, h2, h3 {
   font-family: 'Lobster', cursive;
+}
+.pure-button {
+  background: rgb(223, 117, 20);
+}
+.pure-u-4-4{
+  margin: 10px;
+}
+
+.pure-control-group {
+  margin-left: 10px;
+}
+.payment {
+  margin: 10px;
 }
