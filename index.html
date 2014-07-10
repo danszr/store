@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -35,7 +36,7 @@
 
 <div class="wrap">
     <div class="pure-g testimonials" id = "testimonials">
-        <div class="pure-u-1-1 sub"><p>Testimonials</p>
+        <div class="pure-u-1-1 sub"><p class="title">Testimonials</p>
         </div>
         <div class="pure-u-1-2">
             <img src="img/jsmith.jpg" alt="">
@@ -55,7 +56,7 @@
                 <h2>GNU</h2>
                 <p>"Nike Shoes are the best! They can support all of my 720lbs very well, and it still provides all the comfort my feet have desired before getting these shoes."</p>
             </div>
-                <img src="img/lebron-james-face.jpg" alt="Lebron">
+                <img src="img/LeBron.jpg" alt="Lebron">
             <div>
                 <h2>Lebron James</h2>
                 <p>"These shoes are so nice. It doesn't hurt to be paid $90 millionby Nike to promote their shoes!! There may be a slight confict of interest, but who cares?"</p>
@@ -68,10 +69,10 @@
         
     <div class="pure-g product" id="products">
          <div class="pure-u-1-1 sub">
-            <p>Products</p>
+            <p class="title">Products</p>
          </div>
         <div class="pure-u-1-4 product1">
-            <img src="img/kd.jpg" class = "pro">
+            <img src="kd.jpg" class = "pro">
             <h3>KD "What the" 6</h3>
             <p>LAUNCH: SATURDAY, JUNE 14, 2014 - 10:00 AM EDT
             Hoop Purple/Urgent Orange-Shark
@@ -82,7 +83,7 @@
             The KD VI 'What The' is available in Men's sizes only.</p>
         </div>
     <div class="pure-u-1-4 product2">
-            <img src="img/lebron.jpg" class = "pro">
+            <img src="lebron.jpg" class = "pro">
             <h3>Lebron 11 "What the"</h3>
             <p>LAUNCH: SATURDAY, JUNE 14, 2014 - 10:00 AM EDT
             Hoop Purple/Urgent Orange-Shark
@@ -94,7 +95,7 @@
             </p>
         </div>
     <div class="pure-u-1-4 product3">
-            <img src="img/kobe.jpg" CLASS = "pro">
+            <img src="kobe.jpg" CLASS = "pro">
             <h3>Kobe's "What the"</h3>
             <p>LAUNCH: FRIDAY, DECEMBER 6, 2013 - 8:00 AM EST
             Electric Orange/Deep Night-Violet-Bright Citrus
@@ -102,7 +103,7 @@
             Limit 1 per customer</p>
         </div>
     <div class="pure-u-1-4 product4">
-            <img src="img/kobe8.jpg" class = "pro">
+            <img src="kobe8.jpg" class = "pro">
             <h3>Kobe Bryant All Star</h3>
             <p>LAUNCH: SATURDAY, DECEMBER 7, 2013 - 8:00 AM EST
             Electric Orange/Deep Night-Green-Bright Citrus
@@ -111,15 +112,74 @@
         </div>
     </div>
 
-<div class ="pure-g"> 
+
     <div class="pure-u-1-1 sub">
-            <p>Contract</p>
+            <p class="title">Contact</p>
     </div>
 
-    <div class="pure-u-1-4 name"></div>
-</div>
-   
+    <form class="pure-form">
+    <div class="pure-u-4-4">
+        <span>Name</span>
+        <div class="pure-u-3-4">
+        <input class="pure-input-1" type="text" placeholder="Name">
+        </div>
+    </div>
 
+
+<form class="pure-form pure-form-aligned">
+    <fieldset class="field">
+        <div class="pure-control-group">
+            <label for="name">Choices</label>
+            <input id="option-one" type="checkbox" value="">
+            KD "What the"
+            <input id="option-one" type="checkbox" value="">
+            Lebron 11
+            <input id="option-one" type="checkbox" value="">
+            Kobe "What the"
+            <input id="option-one" type="checkbox" value="">
+            Kobe All Star
+        </div>
+    </fieldset>
+</form>
+
+    <div class="pure-u-4-4">
+        <div class="choice">
+            <span>Currency</span>
+            <div class="pure-u-3-4"> 
+                <label for="option-one" class="pure-checkbox">
+                <input name="option-one" type="radio" value="">
+                USD
+                </label>
+                <label for="option-one" class="pure-checkbox">
+                <input name="option-one" type="radio" value="">
+                GBP
+                <label for="option-one" class="pure-checkbox">
+                <input name="option-one" type="radio" value="">
+                EURO
+            </div> 
+        </div>  
+    </div>
+
+    <div class="pure-4-4 payment">   
+        <label for="payment">Payment Type</label>
+        <select id="payment">
+            <option>Credit</option>
+            <option>Debit</option>
+        </select>
+    </div>
+
+    <form class="pure-form">
+    <div class="pure-u-4-4">
+        <span>Special Requests</span>
+        <div class="pure-u-3-4">
+        <input class="pure-input-1" type="text" placeholder="Name">
+        </div>
+    </div>
+
+    <button type="submit" class="pure-button pure-button-primary">Submit</button>
+         
+
+</form>
     
 </body>
 </html>
