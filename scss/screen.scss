@@ -1,0 +1,155 @@
+@import "reset";
+
+
+
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 21px;
+  background: lightgrey;
+}
+
+a {
+  color: #800000;
+}
+
+
+.content {
+  padding: 20px 0;
+  font-size: 0;
+}
+
+
+.main {
+  width: 65%;
+  margin-right: 5%;
+  font-size: 16px;
+
+.side {
+  display: inline-block;
+  vertical-align: top;
+  }
+}
+
+.side {
+  width: 30%;
+  color: #666;
+  font-size: 14px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: peachpuff;
+
+  .logos{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin: 10px;
+      opacity: .5;
+      &:hover{
+        background-color: blue;
+      }
+  }
+  nav{
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+
+    a {
+    margin-right: 30px;
+      }
+  } 
+.pure-u-1-2 {
+
+  div{
+   
+    display: inline-block;
+  }
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  transition: all 500ms linear;
+  display: inline-block;
+  &:hover{
+  border-radius: 0;
+  border: 1px solid black;
+  }
+}
+
+div .section1 {
+  border: 1px solid black;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  line-height: 30px;
+  background-image: url("http://investazor.com/wp-content/uploads/2013/12/nike-soccer-cleats-wallpapernike-just-do-it-red-iphone-4-4s-5-ipod-4-5-samsung-s2-s3-s4-hvahxfue.jpg");
+
+}
+div .section2 {
+  background: darkorange;
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+.section2 h1 {
+  padding: 20px;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+div .product1, div .product2, div .product3, div .product4 {
+  border: 1px solid black;
+  background: white;
+}
+.wrap {
+  max-width: 2400px;
+  margin: 0 auto;
+}
+.pro {
+  width: 248px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+}
+.title{
+  margin:30px;
+}
+h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-shadow: 0 0 15px black;
+}
+ .sub{
+  font-size: 30px;
+  text-align: center;
+  color: darkorange;
+  text-shadow: 0px 0px 10px black;
+  }
+
+p, h1, h2, h3 {
+  font-family: 'Lobster', cursive;
+}
+.pure-button {
+  background: rgb(223, 117, 20);
+}
+.pure-u-4-4{
+  margin: 10px;
+}
+
+.pure-control-group {
+  margin-left: 10px;
+}
+.payment {
+  margin: 10px;
+}
